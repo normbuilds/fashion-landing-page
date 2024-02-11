@@ -1,0 +1,56 @@
+/* Base styles for smaller screens (mobile-first) */
+.container {
+  width: 100%;
+  max-width: 90%;
+  height: auto;
+  margin-inline: auto;
+}
+
+/* Media query for small screens (portrait phones) */
+@media screen and (min-width: 320px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/* Media query for small screens (landscape phones) */
+@media screen and (min-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Media query for medium screens (tablets) */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 100%; /* Adjust as needed */
+  }
+}
+
+/* Media query for large screens (desktops) */
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 90%; /* Adjust as needed */
+    padding: 48px;
+  }
+}
+
+/* Media query for extra-large screens */
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 90%; /* Adjust as needed */
+    padding: 64px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .container {
+    width: 90%; /* Adjust as needed */
+    padding: 64px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .container {
+    width: 90%; /* Adjust as needed */
+    padding: 64px;
+  }
+}

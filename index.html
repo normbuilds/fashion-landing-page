@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- styles -->
+    <link href="./styles/reset.scss" rel="stylesheet" />
+    <link href="./styles/components/header.scss" rel="stylesheet" />
+    <link href="./styles/components/hero.scss" rel="stylesheet" />
+    <link href="./styles/components/info.scss" rel="stylesheet" />
+     <link href="./styles/components/featured.scss" rel="stylesheet" />
+     <link href="./styles/components/footer.scss" rel="stylesheet" />
+    <link href="./styles/utils.scss" rel="stylesheet" />
+    <!-- styles end -->
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fonts end  -->
+    <title>Fashion</title>
+  </head>
+  <body>
+    <div class="header-container container">
+      <div class="logo-container">
+        <h3 class="logo">Fashion</h3>
+      </div>
+      <div class="nav-container">
+        <img
+          class="hamburger-menu"
+          src="https://www.svgrepo.com/show/312300/hamburger-menu.svg"
+          id="nav"
+        />
+        <div class="nav-bar">
+          <a href="#" class="nav-link">Home</a>
+          <a href="#" class="nav-link">About Us</a>
+          <a href="#" class="nav-link">Shop</a>
+          <a href="#" class="nav-link">Contact</a>
+        </div>
+        <img
+          src="https://cdn.vectorstock.com/i/1000x1000/24/82/shopping-cart-icon-vector-12712482.webp"
+          alt="cart"
+          class="cart"
+        />
+      </div>
+      <div class="popup-nav-menu" id="popup">
+        <a href="#" class="p-nav-link">Home</a>
+        <a href="#" class="p-nav-link">About Us</a>
+        <a href="#" class="p-nav-link">Shop</a>
+        <a href="#" class="p-nav-link">Contact</a>
+        <a href="#" class="p-nav-link">Cart</a>
+      </div>
+      <!-- end pop up nav menu -->
+    </div>
+    <!-- Header end -->
+
+    <div id="app" class="hero-container container">
+      <div class="bg-img">
+        <img src="./public/assets/background.png" alt="bg-image" />
+      </div>
+      <div class="hero-text">
+        <h3 class="hero-text-subtitle">Outfit of the day</h3>
+        <h1 class="hero-text-title">
+          All your <br />
+          <span class="hero-text-title-span"> styles are here </span>
+        </h1>
+        <p class="hero-text-paragraph">
+          Consectetur adipiscing elit. Cursus condimentum donec non dictum. Id
+          et sed ac mauris, adipiscing tincidunt amet vel at. Quis lobortis id.
+          consectetur adipiscing elit.
+        </p>
+        <button class="hero-text-btn">Buy Now</button>
+      </div>
+      <div class="hero-image-container">
+        <img class="hero-img" src="./public/assets/hero-img.png" />
+        <div class="hero-sub-container">
+          <span class="slider-image">
+            <img src="./public/assets/jacket1.png" alt="jacket1" />
+          </span>
+          <span class="slider-image">
+            <img src="./public/assets/jaket2.png" alt="jaket2" />
+          </span>
+          <span class="slider-image">
+            <img src="./public/assets/jacket3.png" alt="jacket3" />
+          </span>
+          <div class="hero-card">
+            <h>try in different styles</h>
+            <span>$200</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero end -->
+    <div class="info-container container">
+      <div class="info-tittle-container">
+        <h1>All we Know is Fashion</h1>
+        <p>
+          Beyond showing your customer high-quality and perfect products’ images
+          you sell, people need to know clearly about your core beliefs which
+          guide your decision for what you sell. As you scroll, you'll move
+          through some of Sweet Loren's impressive values, including bringing
+          people together to laugh, celebrate, connect, and refusing to
+          compromise.
+        </p>
+      </div>
+      <div class="info-body-container">
+        <img
+          class="info-img"
+          src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbiUyMG1vZGVsfGVufDB8fDB8fHww"
+          alt="model-1"
+        />
+        <p class="info-text">
+          With these few examples, hopefully, you can figure out the best way to
+          make your Shopify about us page awesome and gain more sales. It is
+          very easy to create an amazing Shopify about us page with PageFly -
+          Shopify advanced page builder. Just drag-n-drop, I will show you how
+        </p>
+      </div>
+    </div>
+    <!-- Info end -->
+    <div class="featured-container container">
+      <h1 class="featured-title">FEATURED APPAREL</h1>
+      
+       <div class="card-grid">
+         <div class="featured-card">
+          <img
+            src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZhc2hpb24lMjBwcm9kdWN0c3xlbnwwfHwwfHx8MA%3D%3D"
+            alt="product"
+            class="card-img"
+          />
+        <div class="card-info-box">
+           <p class="card-text">Buy Dis Shit Homes</p>
+          <span class="price">$200.00</span>
+         </div>
+        </div>
+        <div class="featured-card">
+          <img
+            src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmFzaGlvbiUyMHByb2R1Y3RzfGVufDB8fDB8fHww"
+            alt="product"
+            class="card-img"
+          />
+          <div class="card-info-box">
+           <p class="card-text">Buy Dis Shit Homes</p>
+          <span class="price">$200.00</span>
+         </div>
+        </div>
+        <div class="featured-card">
+          <img
+            src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZhc2hpb24lMjBwcm9kdWN0c3xlbnwwfHwwfHx8MA%3D%3D"
+            alt="product"
+            class="card-img"
+          />
+         <div class="card-info-box">
+           <p class="card-text">Buy Dis Shit Homes</p>
+          <span class="price">$200.00</span>
+         </div>
+        </div>
+        <div class="featured-card">
+          <img
+            src="https://images.unsplash.com/photo-1508296695146-257a814070b4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZhc2hpb24lMjBwcm9kdWN0c3xlbnwwfHwwfHx8MA%3D%3D"
+            alt="product"
+            class="card-img"
+          />
+        <div class="card-info-box">
+           <p >Buy Dis Shit Homes</p>
+          <span >$200.00</span>
+         </div>
+        </div>
+       </div>
+      </div>
+    </div>
+    <!-- Featured end -->
+    <div class="footer-container container">
+      <div class="footer-text-container">
+        <div class="footer-text-col">
+          <a>
+            <h1>Shop</h1>
+          </a>
+          <ul>
+            <li>Coupons</li>
+            <li>Sales</li>
+            <li>Returns</li>
+          </ul>
+        </div>
+        <div class="footer-text-col">
+            <a>
+           <h1>Shop</h1>
+          </a>
+          <ul>
+            <li>Coupons</li>
+            <li>Sales</li>
+            <li>Returns</li>
+          </ul>
+        </div>
+        <div class="footer-text-col">
+            <a>
+            <h1>Shop</h1>
+          </a>
+          <ul>
+            <li>Coupons</li>
+            <li>Sales</li>
+            <li>Returns</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-socials-container">
+       <div class="email-container">
+         <input placeholder="  Email Address" type="text" class="email">
+        <button  >Subscribe</button>
+       </div>
+       <div class="icons-container">
+        <a href="" class="social-icon">
+         <img src="./public/assets/facebook.png" alt="facebook"/>
+        </a>
+        <a href="" class="social-icon">
+           <img src="./public/assets/instagram.png" alt="instagram"/>
+        </a>
+        <a href="" class="social-icon">
+          <img src="./public/assets/tiktok.png" alt="tiktok"/>
+        </a>
+       </div>
+
+      </div>
+    </div>
+    <!--Footer end  -->
+    <script type="module" src="/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  </body>
+</html>
