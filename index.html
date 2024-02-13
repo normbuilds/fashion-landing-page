@@ -11,6 +11,8 @@
     <link href="./styles/components/info.scss" rel="stylesheet" />
      <link href="./styles/components/featured.scss" rel="stylesheet" />
      <link href="./styles/components/footer.scss" rel="stylesheet" />
+     <link href="./styles/components/modal.scss" rel="stylesheet" />
+
     <link href="./styles/utils.scss" rel="stylesheet" />
     <!-- styles end -->
     <!-- fonts -->
@@ -56,7 +58,15 @@
       <!-- end pop up nav menu -->
     </div>
     <!-- Header end -->
-
+    <div id="ad" class="modal-container container">
+      <div class="modal-card">
+        <img id="modal-close" src="./public/assets/modal-close.png" alt="modal-close" class="modal-close">
+        <h2 class="modal-title">Get 30 % off with your first purchace</h2>
+        <input placeholder="  Email address" type="text" class="modal-email">
+        <button class="modal-btn">Subscribe Now</button>
+      </div>
+    </div>
+<!-- Modal end -->
     <div id="app" class="hero-container container">
       <div class="bg-img">
         <img src="./public/assets/background.png" alt="bg-image" />

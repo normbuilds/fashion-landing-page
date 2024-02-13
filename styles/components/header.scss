@@ -53,6 +53,9 @@
   font-size: 1.5rem;
   color: black;
 }
+.hamburger-menu {
+  cursor: pointer !important;
+}
 
 @media screen and (min-width: 1024px) {
   .hamburger-menu {
